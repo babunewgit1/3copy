@@ -1,60 +1,510 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<!-- Meta setup -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="keywords" content="">
-		<meta name="decription" content="">
-		<meta name="author" content="Mahmudul Hasan">
-		
-		<!-- Title -->
-		<title>Welcome</title>
-		
-		<!-- Fav Icon -->
-		<link rel="icon" href="img/fav.png" />	
+  <head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="keywords" content="" />
+    <meta name="decription" content="" />
+    <meta name="author" content="Mahmudul Hasan" />
 
-		<!-- Include Bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		
-		<!-- Main StyleSheet -->
-		<link rel="stylesheet" href="css/style.css" />	
-		
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="css/responsive.css" />	
-		
-	</head>
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <!-- Title -->
+    <title>Welcome</title>
 
-			
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<!-- Main jQuery -->
-		<script src="js/jquery-3.6.0.min.js"></script>		
+    <!-- Fav Icon -->
+    <link rel="icon" href="img/fav.png" />
 
-		<!-- Bootstrap Js -->
-		<script src="js/bootstrap.bundle.min.js"></script>
-		
-			<!-- Fontawesome Script -->
-		<script src="https://kit.fontawesome.com/e7f2043049.js"></script>
-		
-		<!-- Custom jQuery -->
-		<script src="js/scripts.js"></script>
-		
-		<!-- Scroll-Top button -->
-		<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
-		
-	</body>
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- top_header area start -->
+    <section id="top_header" class="d-none d-lg-block">
+      <div class="container">
+        <div class="top_header_wrapper">
+          <ul>
+            <li>
+              <a href="mailto:contact@guidetowinau.com"
+                ><span><i class="fa-solid fa-envelope"></i></span>
+                <em>contact@guidetowinau.com</em></a
+              >
+            </li>
+            <li>
+              <a href="tel:+1 703-701-9964"
+                ><span><i class="fa-solid fa-phone"></i></span
+                ><em> +1 703-701-9964</em></a
+              >
+            </li>
+            <li>
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <em> 642 Wallace Street, Nanaimo, Australia</em>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- top_header area end -->
+
+    <!-- header area start -->
+    <header>
+      <div class="container-fluid">
+        <div class="header_wrapper">
+          <div class="logo_item">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="bar d-block d-lg-none">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="menu_item">
+            <span id="cross"></span>
+            <ul>
+              <li><a href="#" data-scroll="hero"> Home</a></li>
+              <li id="dropdown_holder">
+                <a href="javascript:void(0);"
+                  >Casino Hotels
+                  <span><i class="fa-solid fa-angle-down"></i></span
+                ></a>
+
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#" data-scroll="#hotel1"
+                      >Chelsea Casino Hotel Toronto</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-scroll="#hotel2"
+                      >Vittoria Casino Hotel &amp; Suites</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-scroll="#hotel3"
+                      >Great Canadian Casino Hotel</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-scroll="#hotel4"
+                      >Pickering Casino Resort Hotel</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#" data-scroll="footer">Contact</a></li>
+              <li><a href="#">Book Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header area end -->
+
+    <!-- hero area start -->
+    <section id="hero">
+      <video autoplay muted loop>
+        <source src="media/hotel.mp4" type="video/mp4" />
+      </video>
+      <div class="hero_bannar">
+        <div class="bannar_text">
+          <div class="container">
+            <div class="bannar_text_wrapper">
+              <p>Welcome our dear guests</p>
+              <h1>
+                With several hotel destinations across Australia, we are your
+                best guide to play and stay in comfort.
+              </h1>
+              <ul>
+                <li><a href="#">Book Now</a></li>
+                <li><a href="#" data-scroll="footer">Contact Us</a></li>
+              </ul>
+              <div class="arrow">
+                <a href=""><i class="fa-solid fa-angle-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero area end -->
+
+    <!-- hotel area start -->
+    <section id="hotel">
+      <div class="hotel_wrapper">
+        <div class="hotel_left">
+          <h2 id="hotel1">Chelsea Casino Hotel Toronto</h2>
+          <p>
+            The Chelsea Hotel is a mesmerizing casino hotel that blends lavish
+            accommodations with exciting gaming opportunities. It promises a
+            memorable urban retreat with its perfect mix of luxury and thrill.
+          </p>
+          <div class="hotel_left_icon">
+            <ul>
+              <li>
+                <span><img src="img/icon1.png" alt="" /></span>Electronic Table
+                Games
+              </li>
+              <li>
+                <span><img src="img/icon2.png" alt="" /></span>High Limit Slots
+                & Tables
+              </li>
+              <li>
+                <span><img src="img/icon3.png" alt="" /></span>Excuisite
+                restaurant and wellness
+              </li>
+            </ul>
+          </div>
+          <div class="booking">
+            <ul>
+              <li><a href="#">Book Now</a></li>
+              <li><a href="#" data-scroll="footer">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hotel_middle">
+          <img src="img/hotel1.jpg" alt="" />
+        </div>
+        <div class="hotel_middle">
+          <img src="img/hotel2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="hotel_wrapper">
+        <div class="hotel_middle">
+          <img src="img/hotel3.jpg" alt="" />
+        </div>
+        <div class="hotel_left">
+          <h2 id="hotel2">Vittoria Casino Hotel & Suites</h2>
+          <p>
+            Vittoria Hotel & Suites in Niagara Falls, Australia, delivers a
+            lavish stay with its upscale accommodations. Guests can also enjoy a
+            diverse selection of slot machines and gaming facilities, adding an
+            exciting touch to their visit.
+          </p>
+          <div class="hotel_left_icon">
+            <ul>
+              <li>
+                <span><img src="img/icon1.png" alt="" /></span>Table Games
+              </li>
+              <li>
+                <span><img src="img/icon4.png" alt="" /></span>Poker Room
+              </li>
+              <li>
+                <span><img src="img/icon5.png" alt="" /></span>High Limit Slots
+                & Tables
+              </li>
+            </ul>
+          </div>
+          <div class="booking">
+            <ul>
+              <li><a href="#">Book Now</a></li>
+              <li><a href="#" data-scroll="footer">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hotel_middle">
+          <img src="img/hotel4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="hotel_wrapper">
+        <div class="hotel_middle">
+          <img src="img/hotel5.jpg" alt="" />
+        </div>
+
+        <div class="hotel_middle">
+          <img src="img/hotel6.jpg" alt="" />
+        </div>
+        <div class="hotel_left">
+          <h2 id="hotel3">Great Canadian Casino Hotel</h2>
+          <p>
+            Featuring Australia's most extensive selection of gaming options,
+            the hotel also provides complimentary covered parking with 24-hour
+            video surveillance for added security. Enjoy a variety of dining
+            experiences to cater to different preferences. Book a stay in our
+            stylish and comfortable rooms, conveniently located just a short
+            drive from Toronto Pearson Airport.
+          </p>
+          <div class="hotel_left_icon">
+            <ul>
+              <li>
+                <span><img src="img/icon1.png" alt="" /></span>Electronic Table
+                Games
+              </li>
+
+              <li>
+                <span><img src="img/icon5.png" alt="" /></span>High Limit Slots
+                & Tables
+              </li>
+              <li>
+                <span><img src="img/icon4.png" alt="" /></span>Poker Room
+              </li>
+            </ul>
+          </div>
+          <div class="booking">
+            <ul>
+              <li><a href="#">Book Now</a></li>
+              <li><a href="#" data-scroll="footer">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hotel_wrapper">
+        <div class="hotel_middle">
+          <img src="img/hotel1.jpg" alt="" />
+        </div>
+        <div class="hotel_left">
+          <h2 id="hotel4">Pickering Casino Resort Hotel</h2>
+          <p>
+            Boasting over 2,200 interactive slot machines and 90 live table
+            games, the property offers an excellent range of dining choices.
+            Additionally, guests can enjoy a contemporary and peaceful hotel
+            with 275 well-appointed rooms and suites.
+          </p>
+          <div class="hotel_left_icon">
+            <ul>
+              <li>
+                <span><img src="img/icon5.png" alt="" /></span>High Limit Slots
+                & Tables
+              </li>
+              <li>
+                <span><img src="img/icon5.png" alt="" /></span>Slot Machines
+              </li>
+              <li>
+                <span><img src="img/icon1.png" alt="" /></span>Table Games
+              </li>
+            </ul>
+          </div>
+          <div class="booking">
+            <ul>
+              <li><a href="#">Book Now</a></li>
+              <li><a href="#" data-scroll="footer">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hotel_middle">
+          <img src="img/hotel2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- hotel area end -->
+
+    <!-- explore area start -->
+    <section id="explore">
+      <div class="container">
+        <div class="explore_wrapper">
+          <div class="exp_left">
+            <h2>Explore top casino resorts in Australia</h2>
+            <p>
+              Looking for a getaway that merges luxurious living with casino
+              excitement? Australia boasts a range of top-tier casino hotels
+              offering an unforgettable experience. Whether you're interested in
+              exclusive rooftop terraces or opulent suites with breathtaking
+              views, these handpicked destinations feature an excellent mix of
+              amenities, including poker rooms, slot machines, and more,
+              ensuring both comfort and thrilling entertainment.
+            </p>
+          </div>
+          <div class="explore_right">
+            <div class="explore_right_item">
+              <img src="img/icon4.png" alt="" />
+              <h4>Poker Room</h4>
+              <p>
+                Our casino hotels' poker rooms provide an immersive and
+                sophisticated gaming environment, perfect for both seasoned
+                players and newcomers. With well-appointed tables and a variety
+                of poker games, it's an ideal spot to test your skills and enjoy
+                a competitive atmosphere.
+              </p>
+            </div>
+            <div class="explore_right_item">
+              <img src="img/icon5.png" alt="" />
+              <h4>Slot Machines</h4>
+              <p>
+                Our casino hotels' slot machines provide a diverse range of
+                exciting games, from classic favorites to the latest
+                innovations. With vibrant graphics and engaging gameplay, you'll
+                find endless entertainment and chances to win big.
+              </p>
+            </div>
+            <div class="explore_right_item">
+              <img src="img/icon1.png" alt="" />
+              <h4>Electronic Table Games</h4>
+              <p>
+                Our casino hotels offer a modern twist on traditional gaming,
+                combining the excitement of live tables with the convenience of
+                digital play. Enjoy a variety of popular games with intuitive
+                interfaces and real-time action for a unique and immersive
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- explore area end -->
+
+    <!-- footer area start -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer_left">
+            <div class="footer_logo">
+              <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <div class="footer_social">
+              <ul>
+                <li>
+                  <a target="_blank" href="#"
+                    ><span><i class="fa-brands fa-facebook"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a target="_blank" href="#"
+                    ><span><i class="fa-brands fa-square-x-twitter"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a target="_blank" href="#"
+                    ><span><i class="fa-brands fa-square-instagram"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a target="_blank" href="#"
+                    ><span><i class="fa-brands fa-youtube"></i></span
+                  ></a>
+                </li>
+              </ul>
+              <p>
+                © 2024 <a href="index.html">guidetowinau.com</a> All Rights
+                Reserved.
+              </p>
+            </div>
+          </div>
+          <div class="footer_link text-center">
+            <h3>Contact us</h3>
+            <ul>
+              <li>
+                <a href="tel:+1 703-701-9964"
+                  ><span><i class="fa-solid fa-phone"></i></span>+1
+                  703-701-9964</a
+                >
+              </li>
+              <li>
+                <a href="mailto:contact@guidetowinau.com"
+                  ><span><i class="fa-solid fa-envelope"></i></span
+                  >contact@guidetowinau.com</a
+                >
+              </li>
+              <li><strong>Check-in:</strong> 11:00 - 22:00</li>
+              <li><strong>Check-out:</strong>Until 10:00</li>
+            </ul>
+          </div>
+          <div class="footer_link text-center">
+            <h3>Location</h3>
+            <ul>
+              <li>
+                642 Wallace Street <br />
+                Nanaimo, Australia
+              </li>
+              <li>
+                <a href="#"
+                  >Get directions
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_link text-center">
+            <h3>Useful links</h3>
+            <ul>
+              <li><a href="#">Terms & conditions</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- Main jQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Fontawesome Script -->
+    <script src="https://kit.fontawesome.com/e7f2043049.js"></script>
+
+    <!-- Custom jQuery -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Scroll-Top button -->
+    <a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+    <script src="js/smartScroll.js"></script>
+
+    <!-- code for sticky header -->
+    <script type="text/javascript">
+      (function ($) {
+        $(document).ready(function () {
+          jQuery(window).on("scroll", function () {
+            if (jQuery(window).scrollTop()) {
+              jQuery("header").addClass("fixed");
+            } else {
+              jQuery("header").removeClass("fixed");
+            }
+          });
+        });
+      })(jQuery);
+    </script>
+
+    <!-- code for dropdopwn menu -->
+    <script>
+      const dropdownHolder = document.querySelector("#dropdown_holder");
+      const dropdown = document.querySelector(".sub-menu");
+
+      dropdownHolder.addEventListener("click", () => {
+        dropdown.classList.toggle("activeDropdown");
+      });
+    </script>
+
+    <script>
+      (function ($) {
+        "use strict";
+        // all parameters are optional
+        smartScroll.init(
+          {
+            speed: 700, // default 500
+            addActive: false, // default true
+            activeClass: "active", // default active
+            offset: 300, // default 100
+          },
+          function () {
+            console.log("callback");
+          }
+        );
+      })(jQuery);
+    </script>
+  </body>
 </html>

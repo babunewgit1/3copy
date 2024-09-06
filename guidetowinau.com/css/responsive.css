@@ -4,37 +4,6 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -43,36 +12,6 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -80,34 +19,7 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (min-width: 576px) and (max-width: 767px) {	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /*
@@ -116,34 +28,47 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+  .logo a img {
+    display: inline-block;
+    width: 180px;
+  }
 
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu_item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121f36;
+    top: 0;
+    left: 0;
+    padding: 25px;
+  }
 
+  .menu_item ul li {
+    display: block;
+    margin-bottom: 20px;
+  }
 
+  .menu_item ul li a {
+    margin-left: 0;
+  }
 
+  .menu_item ul li ul {
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: scaleY(1);
+    display: none;
+  }
 
+  .menu_item ul li ul li {
+    margin-bottom: 0;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .activeDropdown {
+    display: block !important;
+  }
 }
