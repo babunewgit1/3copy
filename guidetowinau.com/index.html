@@ -80,9 +80,11 @@
             </div>
           </div>
           <div class="menu_item">
-            <span id="cross"></span>
+            <span class="d-block d-lg-none" id="cross"
+              ><i class="fa-regular fa-circle-xmark"></i
+            ></span>
             <ul>
-              <li><a href="#" data-scroll="hero"> Home</a></li>
+              <li><a class="link" href="#" data-scroll="hero"> Home</a></li>
               <li id="dropdown_holder">
                 <a href="javascript:void(0);"
                   >Casino Hotels
@@ -91,29 +93,29 @@
 
                 <ul class="sub-menu">
                   <li>
-                    <a href="#" data-scroll="#hotel1"
+                    <a class="link" href="#" data-scroll="#hotel1"
                       >Chelsea Casino Hotel Toronto</a
                     >
                   </li>
                   <li>
-                    <a href="#" data-scroll="#hotel2"
+                    <a class="link" href="#" data-scroll="#hotel2"
                       >Vittoria Casino Hotel &amp; Suites</a
                     >
                   </li>
                   <li>
-                    <a href="#" data-scroll="#hotel3"
+                    <a class="link" href="#" data-scroll="#hotel3"
                       >Great Canadian Casino Hotel</a
                     >
                   </li>
                   <li>
-                    <a href="#" data-scroll="#hotel4"
+                    <a class="link" href="#" data-scroll="#hotel4"
                       >Pickering Casino Resort Hotel</a
                     >
                   </li>
                 </ul>
               </li>
-              <li><a href="#" data-scroll="footer">Contact</a></li>
-              <li><a href="#">Book Now</a></li>
+              <li><a class="link" href="#" data-scroll="footer">Contact</a></li>
+              <li><a class="link" href="#">Book Now</a></li>
             </ul>
           </div>
         </div>
@@ -140,7 +142,9 @@
                 <li><a href="#" data-scroll="footer">Contact Us</a></li>
               </ul>
               <div class="arrow">
-                <a href=""><i class="fa-solid fa-angle-down"></i></a>
+                <a href="#" data-scroll="hotel1"
+                  ><i class="fa-solid fa-angle-down"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -442,6 +446,10 @@
               <li><a href="#">Privacy policy</a></li>
             </ul>
           </div>
+          <p class="copyright d-block d-lg-none">
+            © 2024 <a href="index.html">guidetowinau.com</a> All Rights
+            Reserved.
+          </p>
         </div>
       </div>
     </footer>
@@ -489,6 +497,7 @@
       });
     </script>
 
+    <!-- code for scroll spy -->
     <script>
       (function ($) {
         "use strict";
@@ -505,6 +514,32 @@
           }
         );
       })(jQuery);
+    </script>
+
+    <!-- code for hamburgur menu -->
+    <script>
+      const bar = document.querySelector(".bar");
+      const menuItem = document.querySelector(".menu_item");
+      const body = document.querySelector("body");
+      const cross = document.querySelector("#cross");
+      const menu_item = document.querySelectorAll(".menu_item ul li a.link");
+
+      bar.addEventListener("click", () => {
+        menuItem.classList.add("manuOpen");
+        body.classList.add("overflow");
+      });
+
+      cross.addEventListener("click", () => {
+        menuItem.classList.remove("manuOpen");
+        body.classList.remove("overflow");
+      });
+
+      menu_item.forEach((item) => {
+        item.addEventListener("click", () => {
+          menuItem.classList.remove("manuOpen");
+          body.classList.remove("overflow");
+        });
+      });
     </script>
   </body>
 </html>

@@ -321,15 +321,15 @@ header {
 }
 
 .hotel_left h2 {
-  font-size: 50px;
+  font-size: 35px;
   line-height: 1.2;
   margin-bottom: 15px;
   color: #333333d1;
 }
 
 .hotel_left p {
-  font-size: 18px;
-  margin-bottom: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .hotel_left_icon ul li {
@@ -337,7 +337,7 @@ header {
   gap: 20px;
   align-items: center;
   font-family: "Playpen Sans", cursive;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 550;
   font-style: italic;
   margin-bottom: 15px;
@@ -346,7 +346,7 @@ header {
 
 .hotel_left_icon ul li img {
   display: block;
-  width: 45px;
+  width: 30px;
 }
 
 .booking ul li {
@@ -357,7 +357,7 @@ header {
 .booking ul li a {
   display: inline-block;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   transition: all 0.2s ease;
   border: 2px solid #b35f18;
@@ -400,7 +400,7 @@ header {
 }
 
 .exp_left h2 {
-  font-size: 50px;
+  font-size: 35px;
   line-height: 1.2;
   margin-bottom: 15px;
   color: #333;
@@ -412,7 +412,7 @@ header {
 }
 
 .explore_right_item h4 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px 0px;
 }
 
@@ -532,11 +532,46 @@ footer {
   width: 100%;
   height: 4px;
   border-radius: 10px;
-  background-color: #b35f18;
+  background-color: #fff;
 }
 
 .bar span:nth-child(2) {
   margin: 8px 0px;
+}
+
+.menu_item span {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.manuOpen {
+  left: 0 !important;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+p.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p.copyright a {
+  display: inline-block;
+  color: #b35f18;
+}
+
+#dropdown_holder a span {
+  position: inherit;
+  left: 0;
+  top: 0;
+  font-size: 16px;
 }
 
 /* -- footer area end -- */
