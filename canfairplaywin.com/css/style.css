@@ -143,6 +143,9 @@ header {
   transition: all 0.4s ease;
   position: sticky;
   z-index: 99999;
+  top: 0;
+  left: 0;
+  background: #121212;
 }
 /* header area end */
 
