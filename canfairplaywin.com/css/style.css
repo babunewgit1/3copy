@@ -156,6 +156,7 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 .hero_wrapper {

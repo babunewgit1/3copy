@@ -1,0 +1,440 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  ul.compate_link li a {
+    font-size: 14px;
+  }
+
+  .hotel_review > a {
+    font-size: 24px;
+  }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo a img {
+    display: inline-block;
+    width: 40px;
+  }
+
+  .header_wrapper {
+    display: block;
+  }
+
+  .menu_item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121f36;
+    top: 0;
+    left: -100%;
+    padding: 25px;
+    padding-top: 50px;
+    transition: all 0.3s ease;
+  }
+
+  .menu_item ul li a {
+    margin-left: 0;
+    margin: 10px 0px;
+    color: #fff;
+  }
+
+  .menu_item ul li ul {
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: scaleY(1);
+    display: none;
+  }
+
+  .menu_item ul li ul li {
+    margin-bottom: 0;
+  }
+
+  .menu_item ul li {
+    display: block;
+  }
+
+  .bannar_right_tag {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .bannar_right::after {
+    width: 100%;
+  }
+
+  .bannar_right_tag ul li a {
+    margin-bottom: 5px;
+  }
+
+  .bannar_right_tag h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+  }
+
+  .bannar_left img {
+    height: 550px;
+  }
+
+  .bannar_right::after {
+    background-color: rgba(240, 236, 234, 0.6);
+  }
+
+  #hotel {
+    padding-top: 30px;
+  }
+
+  .hotel_heading h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .hotel_review_wrapper {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .hotel_details {
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 20px;
+  }
+
+  .hotel_review > a {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .hotel_para p {
+    font-size: 14px;
+  }
+
+  ul.compate_link li a {
+    font-size: 13px;
+    margin-right: 6px;
+    padding: 10px 14px;
+  }
+
+  ul.compate_link {
+    margin-top: 15px;
+  }
+
+  #map {
+    padding-top: 45px;
+  }
+
+  .map_wrapper h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .map_frame_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_info {
+    order: 2;
+    padding: 30px 20px;
+  }
+
+  .mapframe {
+    order: 1;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .logo a img {
+    display: inline-block;
+    width: 40px;
+  }
+
+  .header_wrapper {
+    display: block;
+  }
+
+  .menu_item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121f36;
+    top: 0;
+    left: -100%;
+    padding: 25px;
+    padding-top: 50px;
+    transition: all 0.3s ease;
+  }
+
+  .menu_item ul li a {
+    margin-left: 0;
+    margin: 10px 0px;
+    color: #fff;
+  }
+
+  .menu_item ul li ul {
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: scaleY(1);
+    display: none;
+  }
+
+  .menu_item ul li ul li {
+    margin-bottom: 0;
+  }
+
+  .menu_item ul li {
+    display: block;
+  }
+
+  .bannar_right_tag {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .bannar_right::after {
+    width: 100%;
+  }
+
+  .bannar_right_tag ul li a {
+    margin-bottom: 5px;
+  }
+
+  .bannar_right_tag h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+  }
+
+  .bannar_left img {
+    height: 550px;
+  }
+
+  .bannar_right::after {
+    background-color: rgba(240, 236, 234, 0.6);
+  }
+
+  #hotel {
+    padding-top: 30px;
+  }
+
+  .hotel_heading h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .hotel_review_wrapper {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .hotel_details {
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 20px;
+  }
+
+  .hotel_review > a {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .hotel_para p {
+    font-size: 14px;
+  }
+
+  ul.compate_link li a {
+    font-size: 13px;
+    margin-right: 6px;
+    padding: 10px 14px;
+  }
+
+  ul.compate_link {
+    margin-top: 15px;
+  }
+
+  #map {
+    padding-top: 45px;
+  }
+
+  .map_wrapper h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .map_frame_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_info {
+    order: 2;
+    padding: 30px 20px;
+  }
+
+  .mapframe {
+    order: 1;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+  .logo a img {
+    display: inline-block;
+    width: 40px;
+  }
+
+  .header_wrapper {
+    display: block;
+  }
+
+  .menu_item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121f36;
+    top: 0;
+    left: -100%;
+    padding: 25px;
+    padding-top: 50px;
+    transition: all 0.3s ease;
+  }
+
+  .menu_item ul li a {
+    margin-left: 0;
+    margin: 10px 0px;
+    color: #fff;
+  }
+
+  .menu_item ul li ul {
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: scaleY(1);
+    display: none;
+  }
+
+  .menu_item ul li ul li {
+    margin-bottom: 0;
+  }
+
+  .menu_item ul li {
+    display: block;
+  }
+
+  .bannar_right_tag {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .bannar_right::after {
+    width: 100%;
+  }
+
+  .bannar_right_tag ul li a {
+    margin-bottom: 5px;
+  }
+
+  .bannar_right_tag h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+  }
+
+  .bannar_left img {
+    height: 550px;
+  }
+
+  .bannar_right::after {
+    background-color: rgba(240, 236, 234, 0.6);
+  }
+
+  #hotel {
+    padding-top: 30px;
+  }
+
+  .hotel_heading h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .hotel_review_wrapper {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .hotel_details {
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 20px;
+  }
+
+  .hotel_review > a {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .hotel_para p {
+    font-size: 14px;
+  }
+
+  ul.compate_link li a {
+    font-size: 13px;
+    margin-right: 6px;
+    padding: 10px 14px;
+  }
+
+  ul.compate_link {
+    margin-top: 15px;
+  }
+
+  #map {
+    padding-top: 45px;
+  }
+
+  .map_wrapper h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .map_frame_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_info {
+    order: 2;
+    padding: 30px 20px;
+  }
+
+  .mapframe {
+    order: 1;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
